@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PWA Test</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f44336">
+
+  <link rel="icon" href="./images/notepad.png" type="image/gif" sizes="16x16">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script defer src="js/materialize.min.js"></script>
+  <script defer src="js/material-ui.js"></script>
+  <script defer src="js/data.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="red">
+      <a href="#" class="brand-logo">Todo App</a>
+      <a class="right sidenav-trigger" data-target="menu"><i class="material-icons">menu</i></a>
+    </nav>
+
+    <ul id="menu" class="sidenav menu">
+      <li><a href="#" class="waves-effect">Home</a></li>
+      <li><a href="#" class="waves-effect">About</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <ul class="todo-list" id="todoList">
+      <li>Go to school</li>
+      <li>Go to school</li>
+      <li>Go to school</li>
+    </ul>
+
+    <div class="add-button">
+      <button class="btn-floating waves-effect waves-light red sidenav-trigger" data-target="form">
+        <i class="material-icons">add</i>
+      </button>
+    </div>
+
+    <ul id="form" class="sidenav form">
+      <div class="avatar">
+      </div>
+      <div class="container">
+        <input type="text" placeholder="What do you want to note ?" id="inputText">
+        <button class="btn red waves-effect waves-light" id="addButton">Add</button>
+      </div>
+    </ul>
+  </main>
+</body>
+
+</html>
