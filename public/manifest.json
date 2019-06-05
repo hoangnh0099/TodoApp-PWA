@@ -8,8 +8,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "images/notepad.png",
+      "src": "images/notepad-256x256.png",
       "sizes": "256x256"
+    },
+    {
+      "src": "images/notepad-512x512.png",
+      "sizes": "512x512"
     }
   ]
 }
