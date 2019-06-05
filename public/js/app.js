@@ -1,9 +1,4 @@
 // PWA
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("serviceWorker.js")
     .then((reg) => console.log("Service worker has been registed"))
