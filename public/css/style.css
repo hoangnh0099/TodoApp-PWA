@@ -58,3 +58,20 @@ button {
   position: absolute;
   bottom: 20%;
 }
+
+.avatar {
+  width: 100%;
+  height: 150px;
+  background-image: url("./../images/Backgrond.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: white;
+}

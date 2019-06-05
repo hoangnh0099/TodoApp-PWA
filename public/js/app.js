@@ -5,12 +5,15 @@ if ("serviceWorker" in navigator) {
     .catch((err) => console.log("Service worker has not been registed"))
 }
 
+
+
 const database = firebase.firestore();
 
 // HTML DOM
 const todoList = document.querySelector("#todoList");
 const formSubmit = document.querySelector("#formSubmit");
 const deleteButton = document.querySelector(".deleteButton");
+const dateHTML = document.querySelector("#date");
 
 // Render data to HTML
 const render = (doc) => {
@@ -68,3 +71,9 @@ database.collection("TodoList").orderBy("content").onSnapshot(snapshot => {
     }
   })
 });
+
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const date = new Date();
+const dateRender = date.toLocaleDateString("en-US", options);
+dateHTML.innerHTML = dateRender;
+console.log(dateHTML.innerHTML = dateRender);

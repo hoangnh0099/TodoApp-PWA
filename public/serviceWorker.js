@@ -10,7 +10,8 @@ const assets = [
   "./css/style.css",
   "https://fonts.googleapis.com/icon?family=Material+Icons",
   "./images/notepad-256x256.png",
-  "./images/notepad-512x512.png"
+  "./images/notepad-512x512.png",
+  "./images/Backgrond.jpg"
 ];
 
 // Install service worker
