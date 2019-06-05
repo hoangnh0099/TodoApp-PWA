@@ -1,0 +1,15 @@
+{
+  "name": "Todo App",
+  "display": "standalone",
+  "start_url": "index.html",
+  "short_name": "Todo App",
+  "theme_color": "#f44336",
+  "background_color": "#efefef",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/notepad.png",
+      "sizes": "256x256"
+    }
+  ]
+}

@@ -50,3 +50,11 @@ button {
   height: 50px;
   width: 50px;
 }
+
+.button-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20%;
+}

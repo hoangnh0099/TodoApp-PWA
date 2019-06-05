@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="manifest" href="manifest.json">
     <link rel="icon" href="images/notepad.png" type="image/gif" sizes="16x16">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css">
@@ -29,11 +30,13 @@
     <main>
       <ul id="todoList"></ul>
 
-      <button 
-        class="btn-floating red waves-effect waves-light sidenav-trigger"
-        data-target="side-form">
-          <i class="material-icons">add</i>
+      <div class="button-area">
+        <button 
+          class="btn-floating red waves-effect waves-light sidenav-trigger"
+          data-target="side-form">
+            <i class="material-icons">add</i>
         </button>
+      </div>
 
       <div class="sidenav side-form" id="side-form">
         <form id="formSubmit" class="container">
